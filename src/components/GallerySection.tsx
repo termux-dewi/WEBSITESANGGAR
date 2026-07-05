@@ -5,6 +5,7 @@ import { X, ChevronLeft, ChevronRight, Filter, Image as ImageIcon, Sparkles } fr
 import belajarAksaraUrl from "../assets/images/aksara.jpg";
 import english from "../assets/images/english.jpeg";
 import tariremaja from "../assets/images/tari.jpeg";
+import hadroh from "../assets/images/hadroh.jpg";
 
 export interface GalleryItem {
   id: string;
@@ -110,11 +111,11 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "gal-9",
-    title: "Pementasan Musik Gendang Beleq",
+    title: "Pementasan Musik Hadroh",
     category: "Asthapura Culture",
-    description: "Parade musik perkusi tradisional penyemangat perjuangan dan adat luhur Sasak.",
+    description: "Permainan alat musik arab yang di ikuti dengan lantunan sholawat.",
     fullStory: "Dalam festival budaya tahunan, pemuda sanggar menampilkan kepiawaian menabuh gendang beleq dalam harmoni megah, merayakan semangat persatuan, kerja sama, dan warisan patriotisme.",
-    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80",
+    image: hadroh,
     date: "01 Mei 2026",
     location: "Pelataran Candi Budaya Asthapura"
   }
