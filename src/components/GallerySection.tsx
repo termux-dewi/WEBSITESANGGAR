@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { X, ChevronLeft, ChevronRight, Filter, Image as ImageIcon, Sparkles } from "lucide-react";
 // @ts-ignore
-import belajarAksaraUrl from "../assets/images/belajar_aksara_real_1783232478677.jpg";
+import belajarAksaraUrl from "../assets/images/aksara.jpg";
+import english from "../assets/images/english.jpeg";
+import tariremaja from "../assets/images/tari.jpeg";
 
 export interface GalleryItem {
   id: string;
@@ -18,7 +20,7 @@ export interface GalleryItem {
 const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "gal-10",
-    title: "Belajar Aksara Jejawan Sasak",
+    title: "Belajar Aksara Sasak",
     category: "Asthapura Culture",
     description: "Sesi pelestarian sastra dan aksara klasik Sasak di pendopo sanggar bersama anak-anak dan pemuda adat.",
     fullStory: "Dibimbing oleh instruktur adat, para pemuda dan anak-anak sanggar berkumpul menggunakan meja belajar kayu tradisional (rehal/meja ngaji) untuk mempelajari kembali seni membaca dan menulis Aksara Jejawan Sasak purba yang tertulis di naskah lontar kuno, memastikan warisan literatur luhur Sasak tidak punah dimakan zaman.",
@@ -68,11 +70,11 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "gal-5",
-    title: "Kelas Bahasa Inggris Kreatif",
+    title: "Kelas Bahasa Inggris",
     category: "Nusantara Edu",
     description: "Metode belajar bahasa melalui lagu, cerita rakyat, dan permainan interaktif.",
     fullStory: "Relawan internasional dan lokal mengajar bahasa Inggris dengan mengintegrasikan nilai-nilai lokal, mempersiapkan anak-anak desa wisata agar cakap menyapa dunia tanpa kehilangan jati dirinya.",
-    image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=1200&q=80",
+    image: english,
     date: "15 Mei 2026",
     location: "Pusat Edukasi Asthapura Sembalun"
   },
@@ -98,11 +100,11 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "gal-8",
-    title: "Latihan Tari Gandrung Lombok",
+    title: "Latihan Tari Untuk Remaja",
     category: "Asthapura Culture",
     description: "Anak-anak sanggar berlatih gerakan tari penyambutan tamu khas adat Sasak.",
     fullStory: "Setiap sore, sanggar kami dipenuhi gelak tawa dan langkah ritmis anak-anak yang tekun menghafalkan tari Gandrung Sasak dari instruktur penari senior, menjaga tradisi agar tetap hidup segar.",
-    image: "https://images.unsplash.com/photo-1545128485-c400e7702796?auto=format&fit=crop&w=1200&q=80",
+    image: tariremaja,
     date: "10 Mei 2026",
     location: "Pendopo Utama Sanggar Asthapura"
   },
