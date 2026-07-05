@@ -1,0 +1,6 @@
+{
+  "name": "Asthapura Nusantara Rinjani Foundation",
+  "description": "Halaman Beranda (Landing Page) untuk Asthapura Nusantara Rinjani Foundation, yayasan non-profit yang melestarikan alam Rinjani, pendidikan masyarakat desa, dan budaya Sasak Nusantara.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
