@@ -3,10 +3,15 @@ import { motion, AnimatePresence } from "motion/react";
 import { X, ChevronLeft, ChevronRight, Filter, Image as ImageIcon, Sparkles } from "lucide-react";
 // @ts-ignore
 import belajarAksaraUrl from "../assets/images/aksara.jpg";
+// @ts-ignore
 import english from "../assets/images/english.jpeg";
+// @ts-ignore
 import tariremaja from "../assets/images/tari.jpeg";
+// @ts-ignore
 import hadroh from "../assets/images/hadroh.jpg";
+// @ts-ignore
 import museum from "../assets/images/museum.jpeg";
+import tarianak from "../assets/images/tarianak.jpeg";
 
 export interface GalleryItem {
   id: string;
@@ -33,7 +38,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "gal-1",
     title: "Museum Asthapura Rinjani",
-    category: "NUsantara Edu",
+    category: "Nusantara Edu",
     description: "",
     fullStory: "Museum Asthapura Rinjani merupakan sebuah museum kebudayaan (etnografi) lokal yang berfungsi sebagai pusat penyelamatan, perawatan, dan pelestarian warisan sejarah masyarakat Lombok, khususnya kebudayaan suku Sasak. Museum ini memfokuskan fungsinya untuk menjaga benda-benda pusaka tradisi agar tidak punah dan tetap bisa dipelajari oleh generasi mendatang.",
     image: museum,
@@ -92,11 +97,11 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "gal-7",
-    title: "Melestarikan Tenun Kuno Sasak",
+    title: "Kelas Tari Untuk Anak",
     category: "Asthapura Culture",
-    description: "Dokumentasi ibu-ibu menganyam benang warna alam menjadi kain bermotif sakral.",
-    fullStory: "Proses pewarnaan alami menggunakan daun jati dan kulit kayu, dilanjutkan dengan penenunan tradisional manual (Gedogan) oleh barisan penenun wanita terampil binaan Asthapura Culture.",
-    image: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+    description: "Dokumentasi Anak-Anak Belajar Menari.",
+    fullStory: "Melalui kelas tari anak ini, museum menjalankan fungsi edukasi dan regenerasi budaya secara nyata, memastikan bahwa warisan seni gerak suku Sasak di Lombok Timur terus diwariskan dan dihidupkan oleh generasi muda sejak usia dini.",
+    image: tarianak,
     date: "14 Mei 2026",
     location: "Koperasi Tenun Sasak Lestari, Lombok Timur"
   },

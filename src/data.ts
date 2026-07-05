@@ -234,6 +234,14 @@ export const HTML_TEMPLATE = `<!DOCTYPE html>
     <!-- Content -->
     <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
 
+      <!-- Motto Badge -->
+      <div class="inline-flex items-center gap-2 bg-emerald-950/80 border border-emerald-500/30 px-4 py-1.5 rounded-full mb-6 backdrop-blur-md">
+        <span class="w-2 h-2 rounded-full bg-orange-600 animate-pulse"></span>
+        <span class="font-mono text-[9px] sm:text-xs font-bold uppercase tracking-widest text-emerald-300">
+          "Bersatu untuk Seni & Budaya, Bersama untuk Bangsa"
+        </span>
+      </div>
+
       <!-- Headline -->
       <h1 class="font-serif text-3xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight leading-tight sm:leading-none text-shadow-md mb-6">
         Menjaga Akar Budaya,<br>
@@ -249,9 +257,6 @@ export const HTML_TEMPLATE = `<!DOCTYPE html>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
         <a href="#program" class="w-full sm:w-auto inline-flex items-center justify-center px-8 h-14 text-sm font-bold uppercase tracking-wider text-white bg-terracotta-700 hover:bg-terracotta-800 rounded-lg shadow-xl hover:shadow-2xl transition duration-200">
           Pelajari Gerakan Kami
-        </a>
-        <a href="#kontak" class="w-full sm:w-auto inline-flex items-center justify-center px-8 h-14 text-sm font-bold uppercase tracking-wider text-white border-2 border-white/80 hover:bg-white hover:text-emerald-950 rounded-lg transition duration-200 bg-white/5 backdrop-blur-xs">
-          Gabung Relawan
         </a>
       </div>
     </div>
@@ -603,14 +608,14 @@ export const HTML_TEMPLATE = `<!DOCTYPE html>
       <!-- Moto Sanggar Box -->
       <div class="max-w-2xl mx-auto bg-emerald-900/60 p-10 rounded-2xl border border-emerald-800/80 shadow-2xl backdrop-blur-md mb-16 text-center">
         <span class="font-mono text-xs font-bold uppercase tracking-widest text-emerald-300">Filosofi & Moto Sanggar</span>
-        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white mt-2 mb-6">
-          "Tindih, Bakti, Lestari"
+        <h3 class="font-serif text-xl sm:text-2xl font-bold text-white mt-2 mb-6 leading-relaxed">
+          "Bersatu Untuk Seni Dan Budaya, Bersama Untuk Bangsa"
         </h3>
         
         <p class="italic text-emerald-100/90 font-serif text-base sm:text-lg leading-relaxed max-w-xl mx-auto mb-8 border-l-4 border-orange-600 pl-4 text-left">
           "Tindih lan Bakti ring Semesta Rinjani, Saling Jaga lan Saling Asuh ring Sesama"
           <span class="block not-italic text-xs font-mono tracking-wider text-emerald-400 font-bold uppercase mt-2">
-            — Filosofi Leluhur Sasak Lombok
+            — Filosofi Leluhur Sasak Lombok (Tindih, Bakti, Lestari)
           </span>
         </p>
 
