@@ -6,6 +6,7 @@ import belajarAksaraUrl from "../assets/images/aksara.jpg";
 import english from "../assets/images/english.jpeg";
 import tariremaja from "../assets/images/tari.jpeg";
 import hadroh from "../assets/images/hadroh.jpg";
+import museum from "../assets/images/museum.jpeg";
 
 export interface GalleryItem {
   id: string;
@@ -31,11 +32,11 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "gal-1",
-    title: "Reboisasi Sabana Sembalun",
-    category: "Rinjani Green",
-    description: "Kegiatan penanaman kembali beringin dan cemara gunung bersama pemuda adat.",
-    fullStory: "Bersama puluhan masyarakat Sembalun dan komunitas pencinta alam, kami menanam bibit pohon beringin dan cemara gunung di zona kritis sabana Rinjani. Kegiatan ini bertujuan mengembalikan serapan air tanah demi keseimbangan ekologi.",
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+    title: "Museum Asthapura Rinjani",
+    category: "NUsantara Edu",
+    description: "",
+    fullStory: "Museum Asthapura Rinjani merupakan sebuah museum kebudayaan (etnografi) lokal yang berfungsi sebagai pusat penyelamatan, perawatan, dan pelestarian warisan sejarah masyarakat Lombok, khususnya kebudayaan suku Sasak. Museum ini memfokuskan fungsinya untuk menjaga benda-benda pusaka tradisi agar tidak punah dan tetap bisa dipelajari oleh generasi mendatang.",
+    image: museum,
     date: "12 Juni 2026",
     location: "Lereng Sabana Sembalun, Lombok Timur"
   },
@@ -101,7 +102,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "gal-8",
-    title: "Latihan Tari Untuk Remaja",
+    title: "Kelas Tari Untuk Remaja",
     category: "Asthapura Culture",
     description: "Anak-anak sanggar berlatih gerakan tari penyambutan tamu khas adat Sasak.",
     fullStory: "Setiap sore, sanggar kami dipenuhi gelak tawa dan langkah ritmis anak-anak yang tekun menghafalkan tari Gandrung Sasak dari instruktur penari senior, menjaga tradisi agar tetap hidup segar.",
@@ -114,7 +115,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
     title: "Pementasan Musik Hadroh",
     category: "Asthapura Culture",
     description: "Permainan alat musik arab yang di ikuti dengan lantunan sholawat.",
-    fullStory: "Dalam festival budaya tahunan, pemuda sanggar menampilkan kepiawaian menabuh gendang beleq dalam harmoni megah, merayakan semangat persatuan, kerja sama, dan warisan patriotisme.",
+    fullStory: "Dalam menyambut atau merayakan acara keagamaan, pemuda sanggar menampilkan kelihaian nya dalam memainkan alat musik hadroh mengikuti alunan sholawat, merayakan hari besar atau acara keagamaan.",
     image: hadroh,
     date: "01 Mei 2026",
     location: "Pelataran Candi Budaya Asthapura"
