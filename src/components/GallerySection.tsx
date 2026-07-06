@@ -12,6 +12,7 @@ import hadroh from "../assets/images/hadroh.jpg";
 // @ts-ignore
 import museum from "../assets/images/museum.jpeg";
 import tarianak from "../assets/images/tarianak.jpeg";
+import senam from "../assets/images/senam.jpg";
 
 export interface GalleryItem {
   id: string;
@@ -47,11 +48,11 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "gal-2",
-    title: "Aksi Clean-Up Jalur Pendakian",
-    category: "Rinjani Green",
+    title: "Kegiatan Senam",
+    category: "Astahpura Culture",
     description: "Operasi pembersihan sampah plastik di sepanjang jalur pendakian sakral Rinjani.",
     fullStory: "Satgas Sampah Rinjani menyisir area perkemahan Plawangan Sembalun dan mengangkut lebih dari 350 kg sampah non-organik untuk diolah kembali di Zero Waste Hub terdekat.",
-    image: "https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&w=1200&q=80",
+    image: senam,
     date: "04 Juni 2026",
     location: "Plawangan Sembalun, Gunung Rinjani"
   },
@@ -60,8 +61,8 @@ const GALLERY_ITEMS: GalleryItem[] = [
     title: "Pembibitan Endemik di Sanggar",
     category: "Rinjani Green",
     description: "Proses persemaian dan perawatan bibit pohon endemik di green house utama.",
-    fullStory: "Tim relawan lingkungan mengelola ribuan benih pohon khas hutan pegunungan Lombok, mendidik anak-anak sanggar cara menyiram, merawat tanah, dan memahami ekosistem sejak usia dini.",
-    image: "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1200&q=80",
+    fullStory: "Tim relawan lingkungan mengelolohon khas hutan pegunungan Lombok, mendidik anak-anak sanggar cara menyiram, merawat tanah, dan memahami ekosistem sejak usia dini.",
+    image: senam,
     date: "22 Mei 2026",
     location: "Green House Sanggar Sembalun"
   },
@@ -70,7 +71,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
     title: "Belajar Bersama di Pojok Baca",
     category: "Nusantara Edu",
     description: "Antusiasme anak-anak membaca buku dongeng Nusantara dan ensiklopedia sains.",
-    fullStory: "Pojok Baca kami dirancang dengan struktur bambu terbuka agar menyatu dengan alam. Setiap akhir pekan, puluhan anak berkumpul untuk membaca bersama, melatih imajinasi, dan mengikuti sesi diskusi interaktif.",
+    fullStory: "Pojok Baca kami dirancang dengan nak berkumpul untuk membaca bersama, melatih imajinasi, dan mengikuti sesi diskusi interaktif.",
     image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
     date: "28 Mei 2026",
     location: "Pojok Baca Sajang, Lombok Utara"
